@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KataPassword5._05._05._0
+namespace KataPassword
 {
     internal class Program
     {

@@ -1,21 +1,18 @@
-using KataPassword5._0;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 
-namespace KataPassword5._0Test
+namespace KataPassword
 {
     public class Tests
     {
 
-        private CheckerPassword _cheker;
-        private ResultValidation resultValidation;
+        private PasswordValidator _cheker;
 
         [SetUp]
         public void Setup()
         {
-            _cheker = new CheckerPassword();
-            resultValidation = new ResultValidation { ErrorDescription = new List<string>(), IsValid = true };
+            _cheker = new PasswordValidator();
         }
 
         [Test]
